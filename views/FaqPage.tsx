@@ -26,8 +26,8 @@ const FaqPage: React.FC = () => {
 
     const faqs = [
         { q: "Welche Art von Fotos funktionieren am besten?", a: "Für die besten Ergebnisse verwende bitte ein klares, helles und hochauflösendes Foto, auf dem dein Haustier nach vorne schaut. Gute Beleuchtung macht einen riesigen Unterschied!" },
-        { q: "Wie lange dauert der Posterversand?", a: "Der Druck und die Bearbeitung des Posters dauern 2-3 Werktage. Der Versand dauert in der Regel zusätzlich 5-7 Werktage, abhängig von deinem Standort. Du erhältst eine Sendungsverfolgungsnummer per E-Mail." },
-        { q: "Was ist im Social Pack enthalten?", a: "Das Social Pack enthält zwei hochauflösende digitale Dateien, perfekt zum Teilen online: ein quadratisches Bild für Instagram-Posts und ein vertikales Bild für Storys. Du kannst sie sofort nach dem Kauf herunterladen." },
+        { q: "Wie lange dauert der Versand?", a: "Der Druck und die Bearbeitung dauern 2-3 Werktage. Der Versand dauert in der Regel zusätzlich 5-7 Werktage, abhängig von deinem Standort. Du erhältst eine Sendungsverfolgungsnummer per E-Mail." },
+        { q: "Was ist im Social Pack enthalten?", a: "Das Social Pack enthält die zwei einzigartigen, hochauflösenden KI-Kunstwerke, die für dich generiert wurden. Sie sind quadratisch und eignen sich perfekt für Instagram, Facebook und andere soziale Netzwerke. Du kannst sie sofort nach dem Kauf herunterladen." },
         { q: "Was passiert mit meinem hochgeladenen Foto?", a: "Deine Privatsphäre ist uns wichtig. Dein hochgeladenes Foto wird nur zur Erstellung des Kunstwerks verwendet und nach 7 Tagen automatisch und dauerhaft von unseren Servern gelöscht." },
         { q: "Was ist eure Zufriedenheitsgarantie?", a: "Wir möchten, dass du das Porträt deines Haustieres liebst. Wenn es ein Qualitätsproblem mit dem Druck gibt, kontaktiere uns bitte innerhalb von 14 Tagen mit einem Foto des Problems, und wir werden einen Neudruck veranlassen." }
     ];

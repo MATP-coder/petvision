@@ -6,14 +6,14 @@ interface GalleryPageProps {
 
 const GalleryPage: React.FC<GalleryPageProps> = ({ onStartCreation }) => {
   const galleryItems = [
-    { src: 'https://picsum.photos/seed/gallery1/600/600', alt: 'Hund im Superhelden-Stil' },
-    { src: 'https://picsum.photos/seed/gallery2/600/800', alt: 'Katze als königliches Porträt' },
-    { src: 'https://picsum.photos/seed/gallery3/800/600', alt: 'Hase im galaktischen Stil' },
-    { src: 'https://picsum.photos/seed/gallery4/600/600', alt: 'Meerschweinchen umgeben von Blumen' },
-    { src: 'https://picsum.photos/seed/gallery5/800/600', alt: 'Hund im Street-Art-Stil' },
-    { src: 'https://picsum.photos/seed/gallery6/600/800', alt: 'Katze als Buntglasfenster' },
-    { src: 'https://picsum.photos/seed/gallery7/600/600', alt: 'Papagei im Pop-Surrealismus-Stil' },
-    { src: 'https://picsum.photos/seed/gallery8/600/800', alt: 'Hund als Fabelwesen' },
+    { src: 'https://images.unsplash.com/photo-1599819122021-f6f799a45ad1?q=80&w=600&h=600&auto=format&fit=crop', alt: 'Hund im Superhelden-Stil' },
+    { src: 'https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?q=80&w=600&h=800&auto=format&fit=crop', alt: 'Katze als königliches Porträt' },
+    { src: 'https://images.unsplash.com/photo-1596815339233-5e95a1f99158?q=80&w=800&h=600&auto=format&fit=crop', alt: 'Katze im galaktischen Stil' },
+    { src: 'https://images.unsplash.com/photo-1559591443-158a430635b7?q=80&w=600&h=600&auto=format&fit=crop', alt: 'Hund umgeben von Blumen' },
+    { src: 'https://images.unsplash.com/photo-1593382515288-5a8155e40a4b?q=80&w=800&h=600&auto=format&fit=crop', alt: 'Hund im Street-Art-Stil' },
+    { src: 'https://images.unsplash.com/photo-1593435715438-a81d11369a12?q=80&w=600&h=800&auto=format&fit=crop', alt: 'Katze als Buntglasfenster' },
+    { src: 'https://images.unsplash.com/photo-1533738363-b7f9aef128ce?q=80&w=600&h=600&auto=format&fit=crop', alt: 'Katze im Pop-Surrealismus-Stil' },
+    { src: 'https://images.unsplash.com/photo-1615751072497-5f5169225a1f?q=80&w=600&h=800&auto=format&fit=crop', alt: 'Hund als Fabelwesen' },
   ];
 
   return (
