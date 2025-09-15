@@ -25,11 +25,11 @@ const FaqPage: React.FC = () => {
     const [openIndex, setOpenIndex] = useState<number | null>(null);
 
     const faqs = [
-        { q: "What kind of photos work best?", a: "For the best results, please use a clear, bright, high-resolution photo where your pet is facing forward. Good lighting makes a huge difference!" },
-        { q: "How long does poster shipping take?", a: "Poster printing and processing takes 2-3 business days. Shipping usually takes an additional 5-7 business days, depending on your location. You will receive a tracking number via email." },
-        { q: "What is included in the Social Pack?", a: "The Social Pack includes two high-resolution digital files, perfect for sharing online: one square image for Instagram posts and one vertical image for Stories. You can download them instantly after purchase." },
-        { q: "What happens to my uploaded photo?", a: "Your privacy is important to us. Your uploaded photo is used only to generate the artwork and is automatically and permanently deleted from our servers after 7 days." },
-        { q: "What is your satisfaction guarantee?", a: "We want you to love your pet's portrait. If there's a quality issue with the print, please contact us within 14 days with a photo of the problem, and we will arrange for a reprint." }
+        { q: "Welche Art von Fotos funktionieren am besten?", a: "Für die besten Ergebnisse verwende bitte ein klares, helles und hochauflösendes Foto, auf dem dein Haustier nach vorne schaut. Gute Beleuchtung macht einen riesigen Unterschied!" },
+        { q: "Wie lange dauert der Posterversand?", a: "Der Druck und die Bearbeitung des Posters dauern 2-3 Werktage. Der Versand dauert in der Regel zusätzlich 5-7 Werktage, abhängig von deinem Standort. Du erhältst eine Sendungsverfolgungsnummer per E-Mail." },
+        { q: "Was ist im Social Pack enthalten?", a: "Das Social Pack enthält zwei hochauflösende digitale Dateien, perfekt zum Teilen online: ein quadratisches Bild für Instagram-Posts und ein vertikales Bild für Storys. Du kannst sie sofort nach dem Kauf herunterladen." },
+        { q: "Was passiert mit meinem hochgeladenen Foto?", a: "Deine Privatsphäre ist uns wichtig. Dein hochgeladenes Foto wird nur zur Erstellung des Kunstwerks verwendet und nach 7 Tagen automatisch und dauerhaft von unseren Servern gelöscht." },
+        { q: "Was ist eure Zufriedenheitsgarantie?", a: "Wir möchten, dass du das Porträt deines Haustieres liebst. Wenn es ein Qualitätsproblem mit dem Druck gibt, kontaktiere uns bitte innerhalb von 14 Tagen mit einem Foto des Problems, und wir werden einen Neudruck veranlassen." }
     ];
 
     const handleToggle = (index: number) => {
@@ -39,8 +39,8 @@ const FaqPage: React.FC = () => {
     return (
         <div className="container mx-auto px-6 py-12">
             <div className="text-center mb-10">
-                <h1 className="text-4xl font-serif font-bold">Frequently Asked Questions</h1>
-                <p className="text-lg text-gray-600 mt-2">Have questions? We have answers!</p>
+                <h1 className="text-4xl font-serif font-bold">Häufig gestellte Fragen</h1>
+                <p className="text-lg text-gray-600 mt-2">Fragen? Wir haben die Antworten!</p>
             </div>
             <div className="max-w-3xl mx-auto">
                 {faqs.map((faq, index) => (

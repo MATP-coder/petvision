@@ -1,4 +1,3 @@
-
 import React from 'react';
 import type { ArtStyle } from '../types';
 
@@ -19,7 +18,7 @@ const StyleCard: React.FC<StyleCardProps> = ({ style, onSelect }) => {
         <p className="text-sm text-gray-600 mt-1">{style.tagline}</p>
       </div>
       <div className="bg-brand-pink text-center py-2 font-bold text-brand-black group-hover:bg-brand-aqua transition-colors duration-300">
-        Choose Style
+        Stil wählen
       </div>
     </div>
   );

@@ -10,6 +10,7 @@ export interface ArtStyle {
 export enum AppView {
   HOME,
   STYLES,
+  GALLERY,
   HOW_IT_WORKS,
   PRICING,
   CREATE,
@@ -23,4 +24,9 @@ export enum CreationStep {
   PREVIEW,
   PURCHASE,
   CONFIRMATION,
+}
+
+export interface ImageAnalysisResult {
+  isSuitable: boolean;
+  feedback: string;
 }

@@ -8,23 +8,23 @@ const HowItWorksPage: React.FC<HowItWorksPageProps> = ({ onStartCreation }) => {
   const steps = [
     {
       icon: '📷',
-      title: '1. Upload Your Photo',
-      description: "Choose your favorite pet photo. Clear, front-facing, well-lit photos give the most stunning results!",
+      title: '1. Lade dein Foto hoch',
+      description: "Wähle dein Lieblingsfoto deines Haustieres. Klare, von vorne aufgenommene und gut beleuchtete Fotos liefern die beeindruckendsten Ergebnisse!",
     },
     {
       icon: '🎨',
-      title: '2. Choose Your Style',
-      description: "Browse our gallery of unique, artist-designed styles. From 'Royal Renaissance' to 'Galactic Glow', find the perfect match for your pet's personality.",
+      title: '2. Wähle deinen Stil',
+      description: "Durchstöbere unsere Galerie einzigartiger, von Künstlern entworfener Stile. Von 'Königlicher Renaissance' bis 'Galaktischer Glanz' – finde den perfekten Look für die Persönlichkeit deines Haustieres.",
     },
     {
       icon: '🖼️',
-      title: '3. Preview & Select',
-      description: "Our AI instantly generates two unique, watermarked previews based on your chosen style. Pick the one you love the most!",
+      title: '3. Vorschau & Auswahl',
+      description: "Unsere KI generiert sofort zwei einzigartige Vorschauen mit Wasserzeichen basierend auf dem von dir gewählten Stil. Wähle die, die du am meisten liebst!",
     },
     {
       icon: '💖',
-      title: '4. Purchase & Enjoy',
-      description: "Select a digital 'Social Pack' for instant download or a physical 'Poster Pack' to be shipped to your door. It's the perfect gift!",
+      title: '4. Kaufen & Genießen',
+      description: "Wähle ein digitales 'Social Pack' zum sofortigen Download oder ein physisches 'Poster Pack', das zu dir nach Hause geschickt wird. Es ist das perfekte Geschenk!",
     },
   ];
 
@@ -32,8 +32,8 @@ const HowItWorksPage: React.FC<HowItWorksPageProps> = ({ onStartCreation }) => {
     <div className="bg-white">
       <div className="container mx-auto px-6 py-12">
         <div className="text-center mb-12">
-            <h1 className="text-4xl md:text-5xl font-serif font-bold">Your Masterpiece in 4 Simple Steps</h1>
-            <p className="text-lg text-gray-600 mt-3">Creating a unique work of art from your pet's photo is easy and fun.</p>
+            <h1 className="text-4xl md:text-5xl font-serif font-bold">Dein Meisterwerk in 4 einfachen Schritten</h1>
+            <p className="text-lg text-gray-600 mt-3">Ein einzigartiges Kunstwerk aus dem Foto deines Haustieres zu erstellen ist einfach und macht Spaß.</p>
         </div>
         
         <div className="max-w-4xl mx-auto">
@@ -52,7 +52,7 @@ const HowItWorksPage: React.FC<HowItWorksPageProps> = ({ onStartCreation }) => {
 
         <div className="text-center mt-16">
           <button onClick={onStartCreation} className="bg-brand-pink text-brand-black text-xl font-bold py-4 px-10 rounded-xl hover:bg-brand-aqua transition-colors duration-300 transform hover:scale-105">
-              Create Your Art Now
+              Erstelle jetzt deine Kunst
           </button>
         </div>
       </div>

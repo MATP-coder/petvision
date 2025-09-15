@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 interface ProgressBarProps {
@@ -10,7 +9,7 @@ const ProgressBar: React.FC<ProgressBarProps> = ({ currentStep, totalSteps }) =>
   return (
     <div className="text-center py-4 bg-gray-50">
       <p className="text-lg font-semibold text-brand-black">
-        Step {currentStep} of {totalSteps}
+        Schritt {currentStep} von {totalSteps}
       </p>
       <div className="w-full bg-gray-200 rounded-full h-2.5 mt-2">
         <div 

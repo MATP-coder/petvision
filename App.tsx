@@ -1,10 +1,11 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState } from 'react';
 import { AppView } from './types';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
 import HomePage from './views/HomePage';
 import StylesPage from './views/StylesPage';
+import GalleryPage from './views/GalleryPage';
 import FaqPage from './views/FaqPage';
 import HowItWorksPage from './views/HowItWorksPage';
 import CreationFlow from './components/CreationFlow';
@@ -22,6 +23,8 @@ const App: React.FC = () => {
     switch (view) {
       case AppView.STYLES:
         return <StylesPage onStartCreation={() => handleNavigation(AppView.CREATE)} />;
+      case AppView.GALLERY:
+        return <GalleryPage onStartCreation={() => handleNavigation(AppView.CREATE)} />;
       case AppView.HOW_IT_WORKS:
         return <HowItWorksPage onStartCreation={() => handleNavigation(AppView.CREATE)} />;
       case AppView.PRICING:
@@ -32,7 +35,7 @@ const App: React.FC = () => {
         return <CreationFlow />;
       case AppView.HOME:
       default:
-        return <HomePage onStartCreation={() => handleNavigation(AppView.CREATE)} />;
+        return <HomePage onStartCreation={() => handleNavigation(AppView.CREATE)} onNavigate={handleNavigation} />;
     }
   };
 

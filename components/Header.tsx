@@ -24,16 +24,17 @@ const Header: React.FC<HeaderProps> = ({ onNavigate }) => {
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center space-x-8">
-          <a onClick={() => onNavigate(AppView.HOME)} className={navLinkClasses}>Home</a>
-          <a onClick={() => onNavigate(AppView.STYLES)} className={navLinkClasses}>Styles</a>
-          <a onClick={() => onNavigate(AppView.HOW_IT_WORKS)} className={navLinkClasses}>How It Works</a>
-          <a onClick={() => onNavigate(AppView.PRICING)} className={navLinkClasses}>Pricing</a>
+          <a onClick={() => onNavigate(AppView.HOME)} className={navLinkClasses}>Startseite</a>
+          <a onClick={() => onNavigate(AppView.STYLES)} className={navLinkClasses}>Stile</a>
+          <a onClick={() => onNavigate(AppView.GALLERY)} className={navLinkClasses}>Galerie</a>
+          <a onClick={() => onNavigate(AppView.HOW_IT_WORKS)} className={navLinkClasses}>So funktioniert's</a>
+          <a onClick={() => onNavigate(AppView.PRICING)} className={navLinkClasses}>Preise</a>
           <a onClick={() => onNavigate(AppView.FAQ)} className={navLinkClasses}>FAQ</a>
           <button
             onClick={() => onNavigate(AppView.CREATE)}
             className="bg-brand-pink text-brand-black font-bold py-2 px-4 rounded-xl hover:bg-brand-aqua transition-colors duration-300"
           >
-            Create Yours ❤️
+            Gestalte deins ❤️
           </button>
         </nav>
 
@@ -51,16 +52,17 @@ const Header: React.FC<HeaderProps> = ({ onNavigate }) => {
       {isMenuOpen && (
         <div className="md:hidden" onClick={() => setIsMenuOpen(false)}>
           <nav className="px-2 pt-2 pb-4 space-y-1 sm:px-3">
-            <a onClick={() => onNavigate(AppView.HOME)} className={mobileNavLinkClasses}>Home</a>
-            <a onClick={() => onNavigate(AppView.STYLES)} className={mobileNavLinkClasses}>Styles</a>
-            <a onClick={() => onNavigate(AppView.HOW_IT_WORKS)} className={mobileNavLinkClasses}>How It Works</a>
-            <a onClick={() => onNavigate(AppView.PRICING)} className={mobileNavLinkClasses}>Pricing</a>
+            <a onClick={() => onNavigate(AppView.HOME)} className={mobileNavLinkClasses}>Startseite</a>
+            <a onClick={() => onNavigate(AppView.STYLES)} className={mobileNavLinkClasses}>Stile</a>
+            <a onClick={() => onNavigate(AppView.GALLERY)} className={mobileNavLinkClasses}>Galerie</a>
+            <a onClick={() => onNavigate(AppView.HOW_IT_WORKS)} className={mobileNavLinkClasses}>So funktioniert's</a>
+            <a onClick={() => onNavigate(AppView.PRICING)} className={mobileNavLinkClasses}>Preise</a>
             <a onClick={() => onNavigate(AppView.FAQ)} className={mobileNavLinkClasses}>FAQ</a>
             <button
                 onClick={() => onNavigate(AppView.CREATE)}
                 className="w-full mt-2 bg-brand-pink text-brand-black font-bold py-2 px-4 rounded-xl hover:bg-brand-aqua transition-colors duration-300"
             >
-                Create Yours ❤️
+                Gestalte deins ❤️
             </button>
           </nav>
         </div>

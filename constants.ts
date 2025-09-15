@@ -1,11 +1,10 @@
-
 import type { ArtStyle } from './types';
 
 export const ART_STYLES: ArtStyle[] = [
   {
     id: 'superhero',
-    title: 'Superhero 🦸‍♂️',
-    tagline: 'Make your pet the hero of its own story.',
+    title: 'Superheld 🦸‍♂️',
+    tagline: 'Mach dein Haustier zum Helden seiner eigenen Geschichte.',
     image: 'https://picsum.photos/seed/superhero/500/500',
     prompts: [
         'Ultra-dynamic comic book art. A close-up portrait of the pet as a superhero, bursting forward with intense energy. Glowing eyes, a powerful emblem on its chest, and a dramatic cape billowing in the wind against a hyper-detailed, sun-drenched city skyline. Style of a modern graphic novel cover.',
@@ -14,8 +13,8 @@ export const ART_STYLES: ArtStyle[] = [
   },
   {
     id: 'royal',
-    title: 'Royal Renaissance 👑',
-    tagline: 'Majestic, kingly and regal.',
+    title: 'Königliche Renaissance 👑',
+    tagline: 'Majestätisch, königlich und edel.',
     image: 'https://picsum.photos/seed/royal/500/500',
     prompts: [
         'A majestic, opulent Renaissance oil painting. The pet is portrayed as royalty, seated regally on a lavish, velvet-and-gold throne. It wears an ornate, jewel-encrusted crown and a heavy, fur-trimmed robe. The setting is a grand castle hall with dramatic chiaroscuro lighting from a large fireplace. Extremely detailed, rich textures. Style of Rembrandt.',
@@ -24,8 +23,8 @@ export const ART_STYLES: ArtStyle[] = [
   },
   {
     id: 'galactic',
-    title: 'Galactic Glow 🌌',
-    tagline: 'Your pet in the cosmos, surrounded by stars.',
+    title: 'Galaktischer Glanz 🌌',
+    tagline: 'Dein Haustier im Kosmos, umgeben von Sternen.',
     image: 'https://picsum.photos/seed/galactic/500/500',
     prompts: [
         "A breathtaking cosmic portrait. The pet's form is made of swirling stardust and nebulae, with glowing, star-like eyes. It floats serenely in deep space, surrounded by vibrant, colorful galaxies, distant planets, and shimmering constellations. Ethereal, mystical, and awe-inspiring digital art.",
@@ -34,8 +33,8 @@ export const ART_STYLES: ArtStyle[] = [
   },
   {
     id: 'floral',
-    title: 'Floral Fantasy 🌸',
-    tagline: 'Romantic, colorful, framed with blossoms.',
+    title: 'Blütenfantasie 🌸',
+    tagline: 'Romantisch, farbenfroh, umrahmt von Blüten.',
     image: 'https://picsum.photos/seed/floral/500/500',
     prompts: [
         "A romantic, dream-like portrait of the pet's face, beautifully framed by an intricate, lush wreath of hyper-realistic blooming flowers (roses, peonies, lavender). Soft, warm sunlight filters through, creating a gentle glow and a soft bokeh background. Enchanting and beautiful fantasy art style.",
@@ -44,8 +43,8 @@ export const ART_STYLES: ArtStyle[] = [
   },
   {
     id: 'surreal',
-    title: 'Pop-Surreal 🎭',
-    tagline: 'Dreamlike surreal artistic worlds.',
+    title: 'Pop-Surrealismus 🎭',
+    tagline: 'Traumhafte surreale Kunstwelten.',
     image: 'https://picsum.photos/seed/surreal/500/500',
     prompts: [
         "A vibrant, pop-surrealism masterpiece. The pet stands calmly amidst a bizarre, candy-colored dreamscape. Floating teacups pour waterfalls, clocks are melting over giant mushrooms, and the sky is filled with colorful, fluffy clouds. Highly imaginative, whimsical, and strange, in the style of Mark Ryden.",
@@ -54,8 +53,8 @@ export const ART_STYLES: ArtStyle[] = [
   },
   {
     id: 'street',
-    title: 'Street Art 🎨',
-    tagline: 'Urban graffiti look for cool pets.',
+    title: 'Street-Art 🎨',
+    tagline: 'Urbaner Graffiti-Look für coole Haustiere.',
     image: 'https://picsum.photos/seed/street/500/500',
     prompts: [
         "A powerful, close-up street art mural of the pet's face on a gritty, weathered brick wall. Created with explosive spray paint techniques, featuring bold outlines, vibrant splashes of neon color, and abstract graffiti tags in the background. Edgy, urban, and full of raw energy.",
@@ -64,8 +63,8 @@ export const ART_STYLES: ArtStyle[] = [
   },
   {
     id: 'mosaic',
-    title: 'Stained Glass 🪟',
-    tagline: 'Elegant, inspired by stained glass.',
+    title: 'Buntglasfenster 🪟',
+    tagline: 'Elegant, inspiriert von Buntglasfenstern.',
     image: 'https://picsum.photos/seed/mosaic/500/500',
     prompts: [
         "An intricate, divine stained glass window portrait of the pet's face. Composed of richly colored, luminous glass pieces held together by bold, black lead lines. A radiant halo of geometric patterns emanates from behind its head, creating a holy, glowing effect as if lit from behind by the sun.",
@@ -74,8 +73,8 @@ export const ART_STYLES: ArtStyle[] = [
   },
   {
     id: 'gold',
-    title: 'Monochrome & Metallic ✨',
-    tagline: 'Minimalist B&W with metallic shine.',
+    title: 'Monochrom & Metallic ✨',
+    tagline: 'Minimalistisches S/W mit metallischem Glanz.',
     image: 'https://picsum.photos/seed/gold/500/500',
     prompts: [
         "A dramatic, high-fashion, monochrome portrait of the pet against a pure black background. Striking, elegant lines of liquid gold are artfully painted on its fur, creating a kintsugi-like effect. The lighting is sharp, high-contrast, and cinematic, emphasizing texture and form. Minimalist, luxurious, and powerful.",
@@ -84,8 +83,8 @@ export const ART_STYLES: ArtStyle[] = [
   },
   {
     id: 'fantasy',
-    title: 'Fantasy-Mythic 🐉',
-    tagline: 'Your pet as a mythical fantasy creature.',
+    title: 'Fantasy & Mythos 🐉',
+    tagline: 'Dein Haustier als mythisches Fabelwesen.',
     image: 'https://picsum.photos/seed/fantasy/500/500',
     prompts: [
         "Transform the pet into a majestic, mythical creature. It stands proudly, adorned with magnificent, feathered angel wings, in the heart of a sun-dappled, ancient, enchanted forest. Magical light particles float in the air, and sunbeams pierce through the dense canopy. Epic fantasy book cover art.",

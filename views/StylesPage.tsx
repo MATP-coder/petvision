@@ -11,8 +11,8 @@ const StylesPage: React.FC<StylesPageProps> = ({ onStartCreation }) => {
     <div className="bg-gray-50">
       <div className="container mx-auto px-6 py-12">
         <div className="text-center mb-10">
-            <h1 className="text-4xl font-serif font-bold">Explore Our Art Styles</h1>
-            <p className="text-lg text-gray-600 mt-2">Find the perfect look for your beloved pet. Click any style to start creating!</p>
+            <h1 className="text-4xl font-serif font-bold">Entdecke unsere Kunststile</h1>
+            <p className="text-lg text-gray-600 mt-2">Finde den perfekten Look für dein geliebtes Haustier. Klicke auf einen Stil, um zu beginnen!</p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {ART_STYLES.map(style => (
